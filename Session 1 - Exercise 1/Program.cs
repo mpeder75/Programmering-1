@@ -10,6 +10,10 @@ namespace Session_1___Exercise_1
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Test");
+            Console.Read();
+            
         }
     }
 }
