@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+ * Opret en konsolapp, der indeholder en enlinjes og en flerlinjes kommentar. 
+ * Du bestemmer selv teksten. 
+ */
 
-namespace Session_1___Exercise_1
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
 
-            Console.WriteLine("Test");
-            Console.Read();
-            
-        }
-    }
-}
+// 1. Dette er en enkelt line comment
+
+
+
+/*
+ * 2. Dette er en multiline comment
+ */ 
