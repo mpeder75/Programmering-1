@@ -7,5 +7,4 @@ Udskriv værdierne af a og b
 int a = 66;
 int b = 33;
 
-Console.WriteLine(a);
-Console.WriteLine(b);
+Console.WriteLine($"{a} \n{b}");

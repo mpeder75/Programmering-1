@@ -18,4 +18,4 @@ int sum = number1 + number2;
 
 
 // Tal lægges sammen og printes ud
-Console.WriteLine("Dine tal lægt sammen er: " + sum);
+Console.WriteLine("Dine tal lagt sammen er: " + sum);

@@ -9,4 +9,4 @@ Hvor ugedagen, datoen og klokkeslættet tages fra DateTime.
 DateTime dagsdato = DateTime.Now;
 
 // 2. Her printes dagsdato ud
-Console.WriteLine("I dag har vi " + dagsdato.DayOfWeek + " d. " + dagsdato);
+Console.WriteLine($"I dag har vi {dagsdato.DayOfWeek} d. {dagsdato.Day} {dagsdato.ToString("MMMM")} {dagsdato.Year} og kl er {dagsdato.Hour}.{dagsdato.Minute}");

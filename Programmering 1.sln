@@ -5,23 +5,21 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 2", "Session 1 - Exercise 2\Session 1 - Exercise 2.csproj", "{872B18CC-2B20-4BCA-8A5E-F5A038701F68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Exercise 3", "Session 1 - Exercise 3\Session 1 - Exercise 3.csproj", "{3BADFBC4-4BDB-459E-B109-004CABB4A172}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 3", "Session 1 - Exercise 3\Session 1 - Exercise 3.csproj", "{3BADFBC4-4BDB-459E-B109-004CABB4A172}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Exercise 1", "Session 1 - Exercise 1\Session 1 - Exercise 1.csproj", "{F8F72DA9-D587-43EB-A72F-AF328EF0B2D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 1", "Session 1 - Exercise 1\Session 1 - Exercise 1.csproj", "{F8F72DA9-D587-43EB-A72F-AF328EF0B2D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Exercise 4", "Session 1 - Exercise 4\Session 1 - Exercise 4.csproj", "{C30807E3-491F-41A7-9FF7-5ABACD9D1DD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 4", "Session 1 - Exercise 4\Session 1 - Exercise 4.csproj", "{C30807E3-491F-41A7-9FF7-5ABACD9D1DD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Exercise 5", "Session 1 - Exercise 5\Session 1 - Exercise 5.csproj", "{89275E7E-CD90-4757-BB84-0A7537683B56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 5", "Session 1 - Exercise 5\Session 1 - Exercise 5.csproj", "{89275E7E-CD90-4757-BB84-0A7537683B56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Exercise 6", "Session 1 - Exercise 6\Session 1 - Exercise 6.csproj", "{772DC41D-535C-439E-A8D8-3EF90CB8FB94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 6", "Session 1 - Exercise 6\Session 1 - Exercise 6.csproj", "{772DC41D-535C-439E-A8D8-3EF90CB8FB94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Exercise 7", "Session 1 - Exercise 7\Session 1 - Exercise 7.csproj", "{101F60EE-A32B-45FC-8B7A-47427CFFAFEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 7", "Session 1 - Exercise 7\Session 1 - Exercise 7.csproj", "{101F60EE-A32B-45FC-8B7A-47427CFFAFEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Exercise 8", "Session 1 - Exercise 8\Session 1 - Exercise 8.csproj", "{5E2F043E-3D3E-4D65-8B89-A1CD10F25C28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 8", "Session 1 - Exercise 8\Session 1 - Exercise 8.csproj", "{5E2F043E-3D3E-4D65-8B89-A1CD10F25C28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Exercise 9", "Session 1 - Exercise 9\Session 1 - Exercise 9.csproj", "{AFEEDF4A-FF4B-4B28-9E4C-7700588135FC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KunDato", "KunDato\KunDato.csproj", "{B322C978-F21D-43A5-B5D0-3DD5B4AE06A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 9", "Session 1 - Exercise 9\Session 1 - Exercise 9.csproj", "{AFEEDF4A-FF4B-4B28-9E4C-7700588135FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,10 +63,6 @@ Global
 		{AFEEDF4A-FF4B-4B28-9E4C-7700588135FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFEEDF4A-FF4B-4B28-9E4C-7700588135FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFEEDF4A-FF4B-4B28-9E4C-7700588135FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B322C978-F21D-43A5-B5D0-3DD5B4AE06A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B322C978-F21D-43A5-B5D0-3DD5B4AE06A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B322C978-F21D-43A5-B5D0-3DD5B4AE06A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B322C978-F21D-43A5-B5D0-3DD5B4AE06A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,10 @@
 ﻿/*
-Opret en konsolapp, der har følgende variabler og typer - du bestemmer selv værdierne: en int, en double og en char. 
+Opret en konsolapp, der har følgende variabler og typer,
+du bestemmer selv værdierne: 
+* en int
+* en double
+* en char.
+
 Udskriv de tre variabler på hver deres linje. 
 */
 
