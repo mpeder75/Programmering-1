@@ -5,7 +5,7 @@ udskriver "Velkommen navn"
 */
 
 
-// 1. Brugerr skal indputte navn som gemmes i variablen name 
+// 1. Bruger skal indputte navn som gemmes i variablen name 
 Console.WriteLine($"Enter name");
 string name = Console.ReadLine();
 

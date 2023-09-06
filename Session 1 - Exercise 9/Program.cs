@@ -13,12 +13,14 @@ og læg mærke til værdierne.
 int aa = 4;
 
 // Her lægges der 1 til 4 EFTER den er printet - MEN der printes 
-Console.WriteLine(aa++);
+aa++;
 
-// Her er aa= 
-Console.WriteLine(++aa);
 
-Console.WriteLine(aa--);
+++aa;
 
-Console.WriteLine(--aa);
+aa--;
+
+--aa;
+
+Console.WriteLine(aa);
 
