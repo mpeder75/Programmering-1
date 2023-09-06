@@ -21,21 +21,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 8", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 9", "Session 1 - Exercise 9\Session 1 - Exercise 9.csproj", "{AFEEDF4A-FF4B-4B28-9E4C-7700588135FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 2 - Exercise 1", "Session 2 - Exerciise 1\Session 2 - Exercise 1.csproj", "{FD48CE12-8E91-4AE0-BE5C-F84691D5B9D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Exercise 1", "Session 2 - Exerciise 1\Session 2 - Exercise 1.csproj", "{FD48CE12-8E91-4AE0-BE5C-F84691D5B9D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 2 - Exercise 2", "Session 2 - Exerciise 2\Session 2 - Exercise 2.csproj", "{E0D790F4-2A56-4E32-A989-C4D85BA38D83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Exercise 2", "Session 2 - Exerciise 2\Session 2 - Exercise 2.csproj", "{E0D790F4-2A56-4E32-A989-C4D85BA38D83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 2 - Exercise 3", "Session 2 - Exerciise 3\Session 2 - Exercise 3.csproj", "{34CE9236-99DB-4E7E-B7FB-864330EFA4A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Exercise 3", "Session 2 - Exerciise 3\Session 2 - Exercise 3.csproj", "{34CE9236-99DB-4E7E-B7FB-864330EFA4A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg1.dag3.tt", "Opg1.dag3.tt\Opg1.dag3.tt.csproj", "{7DBBD472-0E6C-4C90-905B-10908BB15BA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg1.dag3.tt", "Opg1.dag3.tt\Opg1.dag3.tt.csproj", "{7DBBD472-0E6C-4C90-905B-10908BB15BA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 2 - Exercise 4", "Session 2 - Exercise 4\Session 2 - Exercise 4.csproj", "{48D93100-A527-441D-BF2A-8C524B1F1FF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Exercise 4", "Session 2 - Exercise 4\Session 2 - Exercise 4.csproj", "{48D93100-A527-441D-BF2A-8C524B1F1FF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 2 - Exercise 5 + 6", "Session 2 - Exercise 5\Session 2 - Exercise 5 + 6.csproj", "{44657993-6392-4030-BB51-5FB873FC9B14}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sessiion 2- Exercise 7", "Sessiion 2- Exercise 7\Sessiion 2- Exercise 7.csproj", "{140A081B-9F5B-4AAC-82D9-4C750891F823}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 2 - Exercise 7", "Session 2 - Exercise  7\Session 2 - Exercise 7.csproj", "{BB10F41E-1618-43B8-98F0-47449D8F2E3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Exercise 5 + 6", "Session 2 - Exercise 5\Session 2 - Exercise 5 + 6.csproj", "{44657993-6392-4030-BB51-5FB873FC9B14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,14 +99,6 @@ Global
 		{44657993-6392-4030-BB51-5FB873FC9B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44657993-6392-4030-BB51-5FB873FC9B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44657993-6392-4030-BB51-5FB873FC9B14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{140A081B-9F5B-4AAC-82D9-4C750891F823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{140A081B-9F5B-4AAC-82D9-4C750891F823}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{140A081B-9F5B-4AAC-82D9-4C750891F823}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{140A081B-9F5B-4AAC-82D9-4C750891F823}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB10F41E-1618-43B8-98F0-47449D8F2E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB10F41E-1618-43B8-98F0-47449D8F2E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB10F41E-1618-43B8-98F0-47449D8F2E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB10F41E-1618-43B8-98F0-47449D8F2E3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
