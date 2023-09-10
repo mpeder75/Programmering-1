@@ -38,5 +38,5 @@ my2DimArray[4, 4] = "25";
 
 /* Opgave 6: Udskriv indeks 2,2 og 4,4 */
 
-Console.WriteLine($"{0,5}Index 2,2 = {my2DimArray[2, 2]} \n\nIndex 4,4 = {my2DimArray[4, 4]}");
+Console.WriteLine($"Index 2,2 = {my2DimArray[2, 2]} \n\nIndex 4,4 = {my2DimArray[4, 4]}");
 
