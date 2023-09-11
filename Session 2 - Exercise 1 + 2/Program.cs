@@ -1,6 +1,11 @@
 ﻿/* Opgave 1: Opret et array der kan indeholde fem ord */
 
-// Første version
+// array indexes = positioner
+// array elementer = data i array
+
+// declare en variabel, af datatype, assigner en ny instans af string[] array class
+
+// Første version 
 string[] myArray1 = new string[5];
 
 myArray1[0] = "Abe";
@@ -21,6 +26,8 @@ string[] myArray3 = new string[] {"Signe", "Hans", "Trine", "Tim", "Bo"};
 // -------------------------------------------------------------------------- //
 
 /* Opgave 2: Udskriv 3 og 5 ord */
+
+// Console.WriteLine() - metode fra Console class, () argument
 
 Console.WriteLine($"3 ord : {myArray1[2]} - 5 ord : {myArray1[4]}");
 
