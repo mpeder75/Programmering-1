@@ -1,4 +1,4 @@
-﻿/* Opret en concole app */
+﻿/* Opgave 1: Opret console app der tager et input alder fra bruger. */
 
 Console.WriteLine("Enter age: ");
 string myAge = Console.ReadLine();
@@ -14,9 +14,11 @@ if(convertedAge < 0)
   Console.WriteLine("Negative number - Enter age above 0");
 }
 
-/* Test om tallet er mindre end 13(Barn), fra 12 og mindre end 20(Teenager), 
- * fra og med 20, til og med 67(Voksen) og alle andre pensionister. 
- * Udskriv resultat. Lav en løsning der bruger If og en der bruger switch */
+/* 
+   Opgave 3: Test om tallet er mindre end 13(Barn), fra 12 og mindre end 20(Teenager), 
+   fra og med 20, til og med 67(Voksen) og alle andre pensionister. 
+   Udskriv resultat. Lav en løsning der bruger If og en der bruger switch
+*/
 
 // If sætning
 if (convertedAge < 13)
