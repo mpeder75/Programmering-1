@@ -2,7 +2,7 @@
 
 int[] myArray1 = new int[5];
 int[] myArray2 = new int[5];
-List<int> listInt= new List<int> ();
+
 
 
 
@@ -25,12 +25,13 @@ for (int i = 0; i < myArray1.Length; i++)
 }
 
 
+Console.WriteLine();
+
 
 
 /* Opgave 5: Brug While loop til fylde den anden med 1-2-3-4-5 */
 
 int counter = 1;
-
 int index = 0;
 
 while (counter <= myArray2.Length)

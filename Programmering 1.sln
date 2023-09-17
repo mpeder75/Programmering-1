@@ -21,9 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 8", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 9", "Session 1 - Exercise 9\Session 1 - Exercise 9.csproj", "{AFEEDF4A-FF4B-4B28-9E4C-7700588135FC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1", "Session 1", "{1316F0F3-CDCF-4B8F-A881-4FFEB91CAA0D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - variabler", "Session 1 - variabler", "{1316F0F3-CDCF-4B8F-A881-4FFEB91CAA0D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 2", "Session 2", "{74B21624-97A6-4FF9-BC3E-D3DEBA48B747}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 2 - arrays & list", "Session 2 - arrays & list", "{74B21624-97A6-4FF9-BC3E-D3DEBA48B747}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Exercise 1 + 2", "Session 2 - Exercise 1 + 2\Session 2 - Exercise 1 + 2.csproj", "{5DD52997-2782-4162-BFC8-D35A9DE0AD3C}"
 EndProject
@@ -33,11 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Exercise 5 + 6"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Exercise 7 + 8", "Session 2 - Exercise 7 + 8\Session 2 - Exercise 7 + 8.csproj", "{00469BB6-766C-458F-83B4-94FF95440FC7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 3", "Session 3", "{EDD605A4-C855-46F0-9465-6D9BA72320FA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 3 - if & switch", "Session 3 - if & switch", "{EDD605A4-C855-46F0-9465-6D9BA72320FA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Exercise 9 + 10 + 11", "Session 2 - Exercise 9 + 10 + 11\Session 2 - Exercise 9 + 10 + 11.csproj", "{5947D2DE-4223-4B6B-B75E-DEDE5ADB07DC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 4", "Session 4", "{39A56DF7-8F8E-4A63-85EE-AA1B5D2C23E3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 4 - for & while loops", "Session 4 - for & while loops", "{39A56DF7-8F8E-4A63-85EE-AA1B5D2C23E3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 4 - Exercise 3 + 4 + 5", "Session 4 - Exercise  3 + 4 + 5\Session 4 - Exercise 3 + 4 + 5.csproj", "{A76C2F3A-1E3C-4CED-AE9A-3CD049AA8D15}"
 EndProject
@@ -47,7 +47,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - Exercise  4 + 5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - Exercise  1 + 2 + 3", "Session 3 - Exercise  1 + 2 + 3\Session 3 - Exercise  1 + 2 + 3.csproj", "{AA711E30-D1A9-4778-8625-6C75B131600F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 3 - Exercise 6", "Session 3 - Exercise 6\Session 3 - Exercise 6.csproj", "{46E4E576-31E6-4B19-B27B-CD5B6DCAF522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 3 - Exercise 6", "Session 3 - Exercise 6\Session 3 - Exercise 6.csproj", "{46E4E576-31E6-4B19-B27B-CD5B6DCAF522}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 4 - Exercise 6", "Session 4 - Exercise 6\Session 4 - Exercise 6.csproj", "{B648590A-D59E-40EB-B5D5-D207FA4101F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatGPT - Exercises", "ChatGPT - Exercise 1\ChatGPT - Exercises.csproj", "{F914B5D1-83AC-4CAD-82BD-DB9827CBB909}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 4 - Exercise 7", "Session 4 - Exercise 7\Session 4 - Exercise 7.csproj", "{4BA8C14C-0C13-4B47-BBD3-9F600308C3F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 5 - Methods", "Session 5 - Methods", "{AE976855-CDDF-44E5-9D6D-3959FAD58E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noter", "Noter\Noter.csproj", "{6652DB75-3880-4342-BDC5-2EEE7296DF87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +141,22 @@ Global
 		{46E4E576-31E6-4B19-B27B-CD5B6DCAF522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46E4E576-31E6-4B19-B27B-CD5B6DCAF522}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46E4E576-31E6-4B19-B27B-CD5B6DCAF522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B648590A-D59E-40EB-B5D5-D207FA4101F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B648590A-D59E-40EB-B5D5-D207FA4101F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B648590A-D59E-40EB-B5D5-D207FA4101F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B648590A-D59E-40EB-B5D5-D207FA4101F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F914B5D1-83AC-4CAD-82BD-DB9827CBB909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F914B5D1-83AC-4CAD-82BD-DB9827CBB909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F914B5D1-83AC-4CAD-82BD-DB9827CBB909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F914B5D1-83AC-4CAD-82BD-DB9827CBB909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA8C14C-0C13-4B47-BBD3-9F600308C3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA8C14C-0C13-4B47-BBD3-9F600308C3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA8C14C-0C13-4B47-BBD3-9F600308C3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA8C14C-0C13-4B47-BBD3-9F600308C3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6652DB75-3880-4342-BDC5-2EEE7296DF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6652DB75-3880-4342-BDC5-2EEE7296DF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6652DB75-3880-4342-BDC5-2EEE7296DF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6652DB75-3880-4342-BDC5-2EEE7296DF87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +181,10 @@ Global
 		{67C858DB-272B-4C05-AF9E-FED542E3F8DA} = {EDD605A4-C855-46F0-9465-6D9BA72320FA}
 		{AA711E30-D1A9-4778-8625-6C75B131600F} = {EDD605A4-C855-46F0-9465-6D9BA72320FA}
 		{46E4E576-31E6-4B19-B27B-CD5B6DCAF522} = {EDD605A4-C855-46F0-9465-6D9BA72320FA}
+		{B648590A-D59E-40EB-B5D5-D207FA4101F8} = {39A56DF7-8F8E-4A63-85EE-AA1B5D2C23E3}
+		{F914B5D1-83AC-4CAD-82BD-DB9827CBB909} = {39A56DF7-8F8E-4A63-85EE-AA1B5D2C23E3}
+		{4BA8C14C-0C13-4B47-BBD3-9F600308C3F5} = {39A56DF7-8F8E-4A63-85EE-AA1B5D2C23E3}
+		{6652DB75-3880-4342-BDC5-2EEE7296DF87} = {AE976855-CDDF-44E5-9D6D-3959FAD58E42}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}
