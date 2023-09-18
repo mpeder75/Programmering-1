@@ -72,3 +72,5 @@ void tæl3 (int tælTil, int gentag)
 
 
 
+
+

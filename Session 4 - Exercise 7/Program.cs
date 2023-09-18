@@ -19,21 +19,33 @@ HVIS værdier ikke er valide SKAL bruger presses til at indtaste korrekte værdi
 */
 
 // Alder angives, og der tjekkes om den er indefor range
-using System.IO;
-
-Console.WriteLine("Enter age (0-120): ");
-string ageString = (Console.ReadLine());
 
 int age;
-bool success = int.TryParse(ageString, out age);
 
-while(!success)
+for (;;)
 {
-    Console.WriteLine("Age needed, please enter age 0-120: ");
-    ageString = Console.ReadLine();
-    success = int.TryParse(ageString, out age);
+    Console.Write("Please enter your age: ");
+    if (int.TryParse(Console.ReadLine(), out age)) // Try to parse user input as an integer
+    {
+        if (age >= 0 && age <= 120)
+        {
+            Console.WriteLine($"Your age is {age}");
+            break; 
+        }
+        else
+        {
+            Console.WriteLine("Age must be between 0 and 120.");
+        }
+    }
+    else
+    {
+        Console.WriteLine("Invalid input. Please enter a valid age.");
+    }
 }
 
+
+
+/*
 // firstname
 for(;;)
 {
@@ -100,9 +112,8 @@ for (;;)
         continue;
     }
 
-
 }
-
+*/
 
 
 
