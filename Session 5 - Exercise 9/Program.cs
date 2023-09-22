@@ -8,128 +8,112 @@
 */
 
 
-Console.WriteLine("Enter hvor many numbers the list should contain: ");
+
+// ---------------- Part 1 -------------------------------------------------- //
+
+Console.WriteLine("Enter how many numbers the list should contain: ");
 int listSize = int.Parse(Console.ReadLine());
 
 List<int> numbersToCheck = new List<int>(listSize);
 
-for(int i = 0; i < listSize; i++)
+for (int i = 0; i < listSize; i++)
 {
     Console.WriteLine($"Enter number {i + 1}: ");
     int number = int.Parse(Console.ReadLine());
     numbersToCheck.Add(number);
 }
 
-numToCheck(numbersToCheck);
+List<int> result = NumToValidate(numbersToCheck);
 
-int numToCheck(List<int> myList)
+// ---------------- Part 2--------------------------------------------------- //
+
+if (result.Count == 0)
 {
-    List<int> numberstoReturn = new List<int>();
+    Console.WriteLine("No matching numbers found.");
+}
+else
+{
+    Console.WriteLine("Results:");
+    Console.WriteLine(string.Join(", ", result));
+}
 
-    if(myList.Last() % 2 != 0)
+// -------------------Part 3------------------------------------------------- //
+
+
+List<int> NumToValidate(List<int> myList)
+{
+    int lastNumber = myList.Last();
+    List<int> matchingNumbers = new List<int>();
+
+    if (lastNumber % 2 != 0)
     {
         for (int i = 0; i < myList.Count; i++)
         {
-            int number = myList[i];
-            numberstoReturn.Add(number);
-            
-        }
-        
-    } else if (myList.Last() % 2 == 0)
-    {
-        bool exitCondition = false;
-        while (!exitCondition)
-        {
-            
+            if (myList[i] % 2 != 0)
+            {
+                matchingNumbers.Add(myList[i]);
+            }
         }
     }
-    return -1;
-
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    else
+    {
+        for (int i = 0; i < myList.Count; i++)
+        {
+            if (myList[i] % 2 == 0)
+            {
+                matchingNumbers.Add(myList[i]);
+            }
+        }
+    }
+    return matchingNumbers;
+}
 
 
 
 
 /*
-bool exitLoop = false;
+Console.WriteLine("Enter hvor many numbers the list should contain: ");
+int listSize = int.Parse(Console.ReadLine());
 
-while (!exitLoop)
+List<int> numbersToCheck = new List<int>(listSize);
+
+for (int i = 0; i < listSize; i++)
 {
-    Console.WriteLine("How many numbers do you want in the list? (min 4): ");
+    Console.WriteLine($"Enter number {i + 1}: ");
+    int number = int.Parse(Console.ReadLine());
+    numbersToCheck.Add(number);
+}
 
-    int listSize = int.Parse(Console.ReadLine());
+List<int> result = NumToValidate(numbersToCheck);
 
-    if (Console.ReadLine().Equals(""))
+List<int> NumToValidate(List<int> myList)
+{
+    int lastNumber = myList.Last();
+    List<int> matchingNumbers = new List<int>();
+
+    if (lastNumber % 2 != 0)
     {
-        Console.WriteLine("Not a number, please enter INTEGER to specify List size: ");
-        exitLoop = true; ;
+        for (int i = 0; i < myList.Count; i++)
+        {
+            if (myList[i] % 2 != 0)
+            {
+                matchingNumbers.Add(myList[i]);
+            }
+        }
     }
     else
     {
-        listSize = int.Parse(Console.ReadLine());
-        exitLoop = false;
+        for (int i = 0; i < myList.Count; i++)
+        {
+            if (myList[i] % 2 == 0)
+            {
+                matchingNumbers.Add(myList[i]);
+            }
+        }
     }
-
-    if (listSize <= 4)
-    {
-        Console.WriteLine("List needs to be minimum 4\nEnter list size (min 4 long)");
-    }
-    else
-    {
-        exitLoop = true;
-    }
+    return matchingNumbers;
 }
 */
-
-        
-
-
-
-
-
 
 
 
