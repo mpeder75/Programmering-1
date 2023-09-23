@@ -18,7 +18,7 @@ List<string> ReturnStringAsList(string text)
     // split text ved HVER ' ' mellemrum og gem i variabel splitString
     string[] splitString = text.Split(' ');
 
-    // konverter array til en List<string>
+    // array til en List<string>
     List<string> convertedString = new List<string>(splitString);
 
     // returner den nyoprettede convertedString til invoker
