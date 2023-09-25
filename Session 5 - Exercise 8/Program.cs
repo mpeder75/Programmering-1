@@ -4,10 +4,7 @@
  Hver metoder adder 10 til det oprindelige tal.
 */
 
-
 AddValue1(5);
-
-
 
 void AddValue1 (int a)
 {

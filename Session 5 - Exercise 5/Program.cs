@@ -5,7 +5,7 @@
   Det skal naturligvis laves således at den kan gøre dette med en vilkårlig tekst. 
 */
 
- List<string> jeps = ReturnStringAsList("C# er et fantastisk sprog!");
+List<string> jeps = ReturnStringAsList("C# er et fantastisk sprog!");
 
 for(int i = 0; i < jeps.Count; i++)
 {
