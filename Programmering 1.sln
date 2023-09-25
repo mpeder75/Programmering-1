@@ -71,11 +71,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Exercise 5", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Exercise 6", "Session 5 - Exercise 6\Session 5 - Exercise 6.csproj", "{FA0720BE-F0EF-42F7-8809-08B94DCFF242}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 5 - Exercise 7", "Session 6 - Exercise 7\Session 5 - Exercise 7.csproj", "{D1412127-D7EE-4486-96EC-4F8C02B74825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Exercise 7", "Session 6 - Exercise 7\Session 5 - Exercise 7.csproj", "{D1412127-D7EE-4486-96EC-4F8C02B74825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 5 - Exercise 8", "Session 6 - Exercise 8\Session 5 - Exercise 8.csproj", "{FA7CF5AD-1F3E-45AA-A249-E5597FDCF533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Exercise 8", "Session 6 - Exercise 8\Session 5 - Exercise 8.csproj", "{FA7CF5AD-1F3E-45AA-A249-E5597FDCF533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 5 - Exercise 9", "Session 5 - Exercise 9\Session 5 - Exercise 9.csproj", "{FD74AE57-3C07-4B7D-8A15-D1BA9465124A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Exercise 9", "Session 5 - Exercise 9\Session 5 - Exercise 9.csproj", "{FD74AE57-3C07-4B7D-8A15-D1BA9465124A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
