@@ -79,7 +79,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Exercise 8", "S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 6 - classes", "Session 6 - classes", "{D6AFCDE0-8197-4197-90B3-1BC3C98197A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 6 - Exercise 1", "Session 6 - Exercise 1\Session 6 - Exercise 1.csproj", "{5DB4F3CD-B05E-457F-8BC9-8A19DF6F1976}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 6 - Exercise 1", "Session 6 - Exercise 1\Session 6 - Exercise 1.csproj", "{5DB4F3CD-B05E-457F-8BC9-8A19DF6F1976}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 7 - classes & constructor", "Session 7 - classes & constructor", "{68006807-4BF9-4F2E-8E61-DA05C9C6BD89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 7 - Exercise 1", "Session 7 - Exercise 1\Session 7 - Exercise 1.csproj", "{D744F7C9-FF33-4596-A461-4B5CE1D7E0DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - Kode fra undervisning", "Session 7 - Kode fra undervisning\Session 7 - Kode fra undervisning.csproj", "{7BD7BD86-7121-44F7-B573-7072AC3E0D19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +225,14 @@ Global
 		{5DB4F3CD-B05E-457F-8BC9-8A19DF6F1976}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DB4F3CD-B05E-457F-8BC9-8A19DF6F1976}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DB4F3CD-B05E-457F-8BC9-8A19DF6F1976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D744F7C9-FF33-4596-A461-4B5CE1D7E0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D744F7C9-FF33-4596-A461-4B5CE1D7E0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D744F7C9-FF33-4596-A461-4B5CE1D7E0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D744F7C9-FF33-4596-A461-4B5CE1D7E0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD7BD86-7121-44F7-B573-7072AC3E0D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD7BD86-7121-44F7-B573-7072AC3E0D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD7BD86-7121-44F7-B573-7072AC3E0D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD7BD86-7121-44F7-B573-7072AC3E0D19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -257,6 +271,8 @@ Global
 		{DCB9A7BD-6479-4EC6-AE7D-F956F5C679CD} = {AE976855-CDDF-44E5-9D6D-3959FAD58E42}
 		{888DFBC3-3E24-477D-A8BC-EEB6F6864773} = {AE976855-CDDF-44E5-9D6D-3959FAD58E42}
 		{5DB4F3CD-B05E-457F-8BC9-8A19DF6F1976} = {D6AFCDE0-8197-4197-90B3-1BC3C98197A6}
+		{D744F7C9-FF33-4596-A461-4B5CE1D7E0DC} = {68006807-4BF9-4F2E-8E61-DA05C9C6BD89}
+		{7BD7BD86-7121-44F7-B573-7072AC3E0D19} = {68006807-4BF9-4F2E-8E61-DA05C9C6BD89}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}
