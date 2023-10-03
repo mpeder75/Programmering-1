@@ -91,9 +91,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - Read & Write to
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 8 - POCO", "Session 8 - POCO", "{F5E96F32-3A38-4EC4-9119-83091ED0AD2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 6 - Giraffe Academy", "Session 8 - Giraffe Academy\Session 6 - Giraffe Academy.csproj", "{9E0A87AF-ED2E-4DBB-AC35-01F955D2D662}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 6 - Microsoft Learn - Classes", "Session 6 - Microsoft Learn - Classes\Session 6 - Microsoft Learn - Classes.csproj", "{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 6 - Giraffe Academy", "Session 6 - Giraffe Academy\Session 6 - Giraffe Academy.csproj", "{68ED19A3-8AEB-44DA-97DC-26E063D8E617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 7 - Microsoft Learn - Constructors", "Session 7 - Microsoft Learn - Constructors\Session 7 - Microsoft Learn - Constructors.csproj", "{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -245,14 +247,18 @@ Global
 		{9DB2B5F4-B41B-4F1A-8901-55DD545C952A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DB2B5F4-B41B-4F1A-8901-55DD545C952A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DB2B5F4-B41B-4F1A-8901-55DD545C952A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9E0A87AF-ED2E-4DBB-AC35-01F955D2D662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E0A87AF-ED2E-4DBB-AC35-01F955D2D662}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E0A87AF-ED2E-4DBB-AC35-01F955D2D662}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E0A87AF-ED2E-4DBB-AC35-01F955D2D662}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68ED19A3-8AEB-44DA-97DC-26E063D8E617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68ED19A3-8AEB-44DA-97DC-26E063D8E617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68ED19A3-8AEB-44DA-97DC-26E063D8E617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68ED19A3-8AEB-44DA-97DC-26E063D8E617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -294,8 +300,9 @@ Global
 		{D744F7C9-FF33-4596-A461-4B5CE1D7E0DC} = {68006807-4BF9-4F2E-8E61-DA05C9C6BD89}
 		{7BD7BD86-7121-44F7-B573-7072AC3E0D19} = {68006807-4BF9-4F2E-8E61-DA05C9C6BD89}
 		{9DB2B5F4-B41B-4F1A-8901-55DD545C952A} = {68006807-4BF9-4F2E-8E61-DA05C9C6BD89}
-		{9E0A87AF-ED2E-4DBB-AC35-01F955D2D662} = {D6AFCDE0-8197-4197-90B3-1BC3C98197A6}
 		{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD} = {D6AFCDE0-8197-4197-90B3-1BC3C98197A6}
+		{68ED19A3-8AEB-44DA-97DC-26E063D8E617} = {D6AFCDE0-8197-4197-90B3-1BC3C98197A6}
+		{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8} = {68006807-4BF9-4F2E-8E61-DA05C9C6BD89}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}
