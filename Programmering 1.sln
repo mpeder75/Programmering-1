@@ -83,9 +83,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 6 - Exercise 1", "S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 7 - classes & constructor", "Session 7 - classes & constructor", "{68006807-4BF9-4F2E-8E61-DA05C9C6BD89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 7 - Exercise 1", "Session 7 - Exercise 1\Session 7 - Exercise 1.csproj", "{D744F7C9-FF33-4596-A461-4B5CE1D7E0DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - Exercise 1", "Session 7 - Exercise 1\Session 7 - Exercise 1.csproj", "{D744F7C9-FF33-4596-A461-4B5CE1D7E0DC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - Kode fra undervisning", "Session 7 - Kode fra undervisning\Session 7 - Kode fra undervisning.csproj", "{7BD7BD86-7121-44F7-B573-7072AC3E0D19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - Read & Write to files", "Session 7 - Read & Write to files\Session 7 - Read & Write to files.csproj", "{9DB2B5F4-B41B-4F1A-8901-55DD545C952A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 8 - POCO", "Session 8 - POCO", "{F5E96F32-3A38-4EC4-9119-83091ED0AD2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 6 - Giraffe Academy", "Session 8 - Giraffe Academy\Session 6 - Giraffe Academy.csproj", "{9E0A87AF-ED2E-4DBB-AC35-01F955D2D662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 6 - Microsoft Learn - Classes", "Session 6 - Microsoft Learn - Classes\Session 6 - Microsoft Learn - Classes.csproj", "{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -233,6 +241,18 @@ Global
 		{7BD7BD86-7121-44F7-B573-7072AC3E0D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BD7BD86-7121-44F7-B573-7072AC3E0D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BD7BD86-7121-44F7-B573-7072AC3E0D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB2B5F4-B41B-4F1A-8901-55DD545C952A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB2B5F4-B41B-4F1A-8901-55DD545C952A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB2B5F4-B41B-4F1A-8901-55DD545C952A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB2B5F4-B41B-4F1A-8901-55DD545C952A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0A87AF-ED2E-4DBB-AC35-01F955D2D662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0A87AF-ED2E-4DBB-AC35-01F955D2D662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0A87AF-ED2E-4DBB-AC35-01F955D2D662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0A87AF-ED2E-4DBB-AC35-01F955D2D662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -273,6 +293,9 @@ Global
 		{5DB4F3CD-B05E-457F-8BC9-8A19DF6F1976} = {D6AFCDE0-8197-4197-90B3-1BC3C98197A6}
 		{D744F7C9-FF33-4596-A461-4B5CE1D7E0DC} = {68006807-4BF9-4F2E-8E61-DA05C9C6BD89}
 		{7BD7BD86-7121-44F7-B573-7072AC3E0D19} = {68006807-4BF9-4F2E-8E61-DA05C9C6BD89}
+		{9DB2B5F4-B41B-4F1A-8901-55DD545C952A} = {68006807-4BF9-4F2E-8E61-DA05C9C6BD89}
+		{9E0A87AF-ED2E-4DBB-AC35-01F955D2D662} = {D6AFCDE0-8197-4197-90B3-1BC3C98197A6}
+		{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD} = {D6AFCDE0-8197-4197-90B3-1BC3C98197A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}
