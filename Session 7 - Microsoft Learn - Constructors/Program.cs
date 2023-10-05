@@ -12,8 +12,6 @@ Car myNewCar = new Car("Audi", "A6", 2020, "Dark Blue");
 Console.WriteLine($"{myNewCar.Make} {myNewCar.Model} {myNewCar.Year} {myNewCar.Color}");
 
 
-
-
 class Car
 {
     public string Make { get; set; }

@@ -21,9 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 8", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Exercise 9", "Session 1 - Exercise 9\Session 1 - Exercise 9.csproj", "{AFEEDF4A-FF4B-4B28-9E4C-7700588135FC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - variabler", "Session 1 - variabler", "{1316F0F3-CDCF-4B8F-A881-4FFEB91CAA0D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - variabler & DateTime", "Session 1 - variabler & DateTime", "{1316F0F3-CDCF-4B8F-A881-4FFEB91CAA0D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 2 - arrays & list", "Session 2 - arrays & list", "{74B21624-97A6-4FF9-BC3E-D3DEBA48B747}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 2 - Array & List", "Session 2 - Array & List", "{74B21624-97A6-4FF9-BC3E-D3DEBA48B747}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Exercise 1 + 2", "Session 2 - Exercise 1 + 2\Session 2 - Exercise 1 + 2.csproj", "{5DD52997-2782-4162-BFC8-D35A9DE0AD3C}"
 EndProject
@@ -91,11 +91,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - Read & Write to
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 8 - POCO", "Session 8 - POCO", "{F5E96F32-3A38-4EC4-9119-83091ED0AD2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 6 - Microsoft Learn - Classes", "Session 6 - Microsoft Learn - Classes\Session 6 - Microsoft Learn - Classes.csproj", "{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 6 - Microsoft Learn - Classes", "Session 6 - Microsoft Learn - Classes\Session 6 - Microsoft Learn - Classes.csproj", "{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 6 - Giraffe Academy", "Session 6 - Giraffe Academy\Session 6 - Giraffe Academy.csproj", "{68ED19A3-8AEB-44DA-97DC-26E063D8E617}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 7 - Microsoft Learn - Constructors", "Session 7 - Microsoft Learn - Constructors\Session 7 - Microsoft Learn - Constructors.csproj", "{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - Microsoft Learn - Constructors", "Session 7 - Microsoft Learn - Constructors\Session 7 - Microsoft Learn - Constructors.csproj", "{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 8 - Exercise 1", "Session 8 - Exercise 1\Session 8 - Exercise 1.csproj", "{6A4C8A42-7C04-472C-8411-8E554D032E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Microsoft Learn - DateTime", "Session 1 - Microsoft Learn - DateTime\Session 1 - Microsoft Learn - DateTime.csproj", "{686514EB-1203-4C7A-BB2A-181B4A254127}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -259,6 +263,14 @@ Global
 		{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4C8A42-7C04-472C-8411-8E554D032E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4C8A42-7C04-472C-8411-8E554D032E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4C8A42-7C04-472C-8411-8E554D032E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4C8A42-7C04-472C-8411-8E554D032E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686514EB-1203-4C7A-BB2A-181B4A254127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686514EB-1203-4C7A-BB2A-181B4A254127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686514EB-1203-4C7A-BB2A-181B4A254127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686514EB-1203-4C7A-BB2A-181B4A254127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -303,6 +315,8 @@ Global
 		{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD} = {D6AFCDE0-8197-4197-90B3-1BC3C98197A6}
 		{68ED19A3-8AEB-44DA-97DC-26E063D8E617} = {D6AFCDE0-8197-4197-90B3-1BC3C98197A6}
 		{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8} = {68006807-4BF9-4F2E-8E61-DA05C9C6BD89}
+		{6A4C8A42-7C04-472C-8411-8E554D032E0E} = {F5E96F32-3A38-4EC4-9119-83091ED0AD2B}
+		{686514EB-1203-4C7A-BB2A-181B4A254127} = {1316F0F3-CDCF-4B8F-A881-4FFEB91CAA0D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}
