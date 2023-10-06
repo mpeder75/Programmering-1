@@ -57,8 +57,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 4 - Exercise 7", "S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 5 - Methods", "Session 5 - Methods", "{AE976855-CDDF-44E5-9D6D-3959FAD58E42}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Noter", "Noter\Noter.csproj", "{6652DB75-3880-4342-BDC5-2EEE7296DF87}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Exercise 1", "Session 5 - Exercise 1\Session 5 - Exercise 1.csproj", "{2945DFBF-9169-406C-9996-52CCC9D66731}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Exercise 2", "Session 5 - Exercise 2\Session 5 - Exercise 2.csproj", "{5590DD1E-BB90-4D7E-84F7-B76C114D8B54}"
@@ -89,7 +87,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - Kode fra underv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - Read & Write to files", "Session 7 - Read & Write to files\Session 7 - Read & Write to files.csproj", "{9DB2B5F4-B41B-4F1A-8901-55DD545C952A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 8 - POCO", "Session 8 - POCO", "{F5E96F32-3A38-4EC4-9119-83091ED0AD2B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 8 - POCO & Exceptions", "Session 8 - POCO & Exceptions", "{F5E96F32-3A38-4EC4-9119-83091ED0AD2B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 6 - Microsoft Learn - Classes", "Session 6 - Microsoft Learn - Classes\Session 6 - Microsoft Learn - Classes.csproj", "{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}"
 EndProject
@@ -99,7 +97,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - Microsoft Learn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 8 - Exercise 1", "Session 8 - Exercise 1\Session 8 - Exercise 1.csproj", "{6A4C8A42-7C04-472C-8411-8E554D032E0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 1 - Microsoft Learn - DateTime", "Session 1 - Microsoft Learn - DateTime\Session 1 - Microsoft Learn - DateTime.csproj", "{686514EB-1203-4C7A-BB2A-181B4A254127}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Microsoft Learn - DateTime", "Session 1 - Microsoft Learn - DateTime\Session 1 - Microsoft Learn - DateTime.csproj", "{686514EB-1203-4C7A-BB2A-181B4A254127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 4 - Microsoft Learn - For loop", "Session 4 - Microsoft Learn - For loop\Session 4 - Microsoft Learn - For loop.csproj", "{40996DD3-12B1-4E3B-A175-0591B173B881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 2 - Microsoft Learn - Array", "Session 2 - Microsoft Learn - Array\Session 2 - Microsoft Learn - Array.csproj", "{5B7F783C-5B9C-4AE0-AEF3-A6B74EAB467B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 8 - Microsoft Learn - Exceptions", "Session 8 - Microsoft Learn - Exceptions\Session 8 - Microsoft Learn - Exceptions.csproj", "{08423433-5181-43B4-8812-14638F4D3978}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,10 +199,6 @@ Global
 		{4BA8C14C-0C13-4B47-BBD3-9F600308C3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BA8C14C-0C13-4B47-BBD3-9F600308C3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BA8C14C-0C13-4B47-BBD3-9F600308C3F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6652DB75-3880-4342-BDC5-2EEE7296DF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6652DB75-3880-4342-BDC5-2EEE7296DF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6652DB75-3880-4342-BDC5-2EEE7296DF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6652DB75-3880-4342-BDC5-2EEE7296DF87}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2945DFBF-9169-406C-9996-52CCC9D66731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2945DFBF-9169-406C-9996-52CCC9D66731}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2945DFBF-9169-406C-9996-52CCC9D66731}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -271,6 +271,18 @@ Global
 		{686514EB-1203-4C7A-BB2A-181B4A254127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{686514EB-1203-4C7A-BB2A-181B4A254127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{686514EB-1203-4C7A-BB2A-181B4A254127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40996DD3-12B1-4E3B-A175-0591B173B881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40996DD3-12B1-4E3B-A175-0591B173B881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40996DD3-12B1-4E3B-A175-0591B173B881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40996DD3-12B1-4E3B-A175-0591B173B881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7F783C-5B9C-4AE0-AEF3-A6B74EAB467B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7F783C-5B9C-4AE0-AEF3-A6B74EAB467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7F783C-5B9C-4AE0-AEF3-A6B74EAB467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7F783C-5B9C-4AE0-AEF3-A6B74EAB467B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08423433-5181-43B4-8812-14638F4D3978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08423433-5181-43B4-8812-14638F4D3978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08423433-5181-43B4-8812-14638F4D3978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08423433-5181-43B4-8812-14638F4D3978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -298,7 +310,6 @@ Global
 		{B648590A-D59E-40EB-B5D5-D207FA4101F8} = {39A56DF7-8F8E-4A63-85EE-AA1B5D2C23E3}
 		{F914B5D1-83AC-4CAD-82BD-DB9827CBB909} = {39A56DF7-8F8E-4A63-85EE-AA1B5D2C23E3}
 		{4BA8C14C-0C13-4B47-BBD3-9F600308C3F5} = {39A56DF7-8F8E-4A63-85EE-AA1B5D2C23E3}
-		{6652DB75-3880-4342-BDC5-2EEE7296DF87} = {AE976855-CDDF-44E5-9D6D-3959FAD58E42}
 		{2945DFBF-9169-406C-9996-52CCC9D66731} = {AE976855-CDDF-44E5-9D6D-3959FAD58E42}
 		{5590DD1E-BB90-4D7E-84F7-B76C114D8B54} = {AE976855-CDDF-44E5-9D6D-3959FAD58E42}
 		{D5D82FC8-6E34-4D17-97F4-0DD1AD3ABB68} = {AE976855-CDDF-44E5-9D6D-3959FAD58E42}
@@ -317,6 +328,9 @@ Global
 		{996AA8DE-89F3-4C91-AFAF-DDBAAFAE5DD8} = {68006807-4BF9-4F2E-8E61-DA05C9C6BD89}
 		{6A4C8A42-7C04-472C-8411-8E554D032E0E} = {F5E96F32-3A38-4EC4-9119-83091ED0AD2B}
 		{686514EB-1203-4C7A-BB2A-181B4A254127} = {1316F0F3-CDCF-4B8F-A881-4FFEB91CAA0D}
+		{40996DD3-12B1-4E3B-A175-0591B173B881} = {39A56DF7-8F8E-4A63-85EE-AA1B5D2C23E3}
+		{5B7F783C-5B9C-4AE0-AEF3-A6B74EAB467B} = {74B21624-97A6-4FF9-BC3E-D3DEBA48B747}
+		{08423433-5181-43B4-8812-14638F4D3978} = {F5E96F32-3A38-4EC4-9119-83091ED0AD2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}

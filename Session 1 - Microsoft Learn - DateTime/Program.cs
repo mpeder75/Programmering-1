@@ -63,7 +63,7 @@ DateTime birthDate = DateTime.Parse("1982/11/4");
 TimeSpan myAgeInDays = DateTime.Now.Subtract(birthDate);
 Console.WriteLine($"My age is: {myAgeInDays.TotalDays}");
 
-// Beregne en alder ift. dd.
+// Beregne ens alder i år ift. dd.
 double myAgeInYears = myAgeInDays.TotalDays / 365.25;
 Console.WriteLine(myAgeInYears);
 

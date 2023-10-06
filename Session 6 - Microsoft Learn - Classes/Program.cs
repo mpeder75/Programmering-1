@@ -2,7 +2,6 @@
 
 //todo 1.  En instans oprettes vha new keyword
 // En instans er et objekt der er lavet udfra en class
-using System.Runtime.CompilerServices;
 
 Car myCar = new Car();
 
