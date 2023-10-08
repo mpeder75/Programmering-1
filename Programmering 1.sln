@@ -99,11 +99,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 8 - Exercise 1", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 1 - Microsoft Learn - DateTime", "Session 1 - Microsoft Learn - DateTime\Session 1 - Microsoft Learn - DateTime.csproj", "{686514EB-1203-4C7A-BB2A-181B4A254127}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 4 - Microsoft Learn - For loop", "Session 4 - Microsoft Learn - For loop\Session 4 - Microsoft Learn - For loop.csproj", "{40996DD3-12B1-4E3B-A175-0591B173B881}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 4 - Microsoft Learn - For loop", "Session 4 - Microsoft Learn - For loop\Session 4 - Microsoft Learn - For loop.csproj", "{40996DD3-12B1-4E3B-A175-0591B173B881}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 2 - Microsoft Learn - Array", "Session 2 - Microsoft Learn - Array\Session 2 - Microsoft Learn - Array.csproj", "{5B7F783C-5B9C-4AE0-AEF3-A6B74EAB467B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 2 - Microsoft Learn - Array", "Session 2 - Microsoft Learn - Array\Session 2 - Microsoft Learn - Array.csproj", "{5B7F783C-5B9C-4AE0-AEF3-A6B74EAB467B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 8 - Microsoft Learn - Exceptions", "Session 8 - Microsoft Learn - Exceptions\Session 8 - Microsoft Learn - Exceptions.csproj", "{08423433-5181-43B4-8812-14638F4D3978}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 8 - Microsoft Learn - Exceptions", "Session 8 - Microsoft Learn - Exceptions\Session 8 - Microsoft Learn - Exceptions.csproj", "{08423433-5181-43B4-8812-14638F4D3978}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 8 - Giraffe Academy - Exception Handling", "Session 8 - Giraffe Academy - Exception Handling\Session 8 - Giraffe Academy - Exception Handling.csproj", "{A3624D73-1030-4DC9-B892-EFC2E0BC6859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 8 - IAmTimCorey - Handling Exceptions", "Session 8 - IAmTimCorey - Handling Exceptions\Session 8 - IAmTimCorey - Handling Exceptions.csproj", "{6F6D2544-A3E7-4F85-85D2-8C106F2E4A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionsLibrary", "ExceptionsLibrary\ExceptionsLibrary.csproj", "{E9C0DF92-FBE0-4360-97C8-F95CD1F3F5FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -283,6 +289,18 @@ Global
 		{08423433-5181-43B4-8812-14638F4D3978}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08423433-5181-43B4-8812-14638F4D3978}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08423433-5181-43B4-8812-14638F4D3978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3624D73-1030-4DC9-B892-EFC2E0BC6859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3624D73-1030-4DC9-B892-EFC2E0BC6859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3624D73-1030-4DC9-B892-EFC2E0BC6859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3624D73-1030-4DC9-B892-EFC2E0BC6859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F6D2544-A3E7-4F85-85D2-8C106F2E4A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6D2544-A3E7-4F85-85D2-8C106F2E4A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6D2544-A3E7-4F85-85D2-8C106F2E4A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6D2544-A3E7-4F85-85D2-8C106F2E4A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C0DF92-FBE0-4360-97C8-F95CD1F3F5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C0DF92-FBE0-4360-97C8-F95CD1F3F5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C0DF92-FBE0-4360-97C8-F95CD1F3F5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C0DF92-FBE0-4360-97C8-F95CD1F3F5FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -331,6 +349,9 @@ Global
 		{40996DD3-12B1-4E3B-A175-0591B173B881} = {39A56DF7-8F8E-4A63-85EE-AA1B5D2C23E3}
 		{5B7F783C-5B9C-4AE0-AEF3-A6B74EAB467B} = {74B21624-97A6-4FF9-BC3E-D3DEBA48B747}
 		{08423433-5181-43B4-8812-14638F4D3978} = {F5E96F32-3A38-4EC4-9119-83091ED0AD2B}
+		{A3624D73-1030-4DC9-B892-EFC2E0BC6859} = {F5E96F32-3A38-4EC4-9119-83091ED0AD2B}
+		{6F6D2544-A3E7-4F85-85D2-8C106F2E4A5F} = {F5E96F32-3A38-4EC4-9119-83091ED0AD2B}
+		{E9C0DF92-FBE0-4360-97C8-F95CD1F3F5FC} = {F5E96F32-3A38-4EC4-9119-83091ED0AD2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}

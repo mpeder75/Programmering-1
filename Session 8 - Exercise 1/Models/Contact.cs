@@ -12,79 +12,94 @@ namespace Session_8___Exercise_1.Models
 
         // Opgave 1:
 
-        public int id;
-        public string firstName;
-        public string lastName;
-        public string address;
-        public int postalCode;
-        public string town;
-        public int phone;
-        public string email;
+        public int Id;
+        public string FirstName;
+        public string LastName;
+        public string Address;
+        public int PostalCode;
+        public string Town;
+        public int Phone;
+        public string Email;
+
+        public Contact(int id, string firstName, string lastName, string address, int postalCode, string town, int phone, string email)
+        {
+            this.Id = id;
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.Address = address;
+            this.PostalCode = postalCode;
+            this.Town = town;
+            this.Phone = phone;
+            this.Email = email;            
+        }
+
 
         // Opgave 2:
         public int GetId()
         {
-            return this.id;
+            return this.Id;
         }
         public string GetFirstName()
         {
-            return this.firstName;
+            return this.FirstName;
         }
         public string GetLastName()
         {
-            return this.lastName;
+            return this.LastName;
         }
         public string GetAddress()
         {
-            return this.address;
+            return this.Address;
         }
         public int GetPostalCode()
         {
-            return this.postalCode;
+            return this.PostalCode;
         }
         public string GetTown()
         {
-            return this.town;
+            return this.Town;
         }
         public int GetPhone()
         {
-            return this.phone;
+            return this.Phone;
         }
         public string GetEmail()
         {
-            return this.email;
+            return this.Email;
         }
+
+
         public void SetId(int id)
         {
-            this.id = id;
+            this.Id = id;
         }
         public void SetFirstName(string firstName)
         {
-            this.firstName = firstName;
+            this.FirstName = firstName;
         }
         public void SetLastName(string lastName)
         {
-            this.lastName = lastName;
+            this.LastName = lastName;
         }
         public void SetAdress(string address)
         {
-            this.address = address;
+            this.Address = address;
         }
         public void SetPostalCode(int postalCode)
         {
-            this.postalCode = postalCode;
+            this.PostalCode = postalCode;
         }
         public void SetTown(string town)
         {
-            this.town = town;
+            this.Town = town;
         }
-        public void GetPhone(int phone)
+        public void SetPhone(int phone)
         {
-            this.phone = phone;
+            this.Phone = phone;
         }
-        public void GetEmail(string email)
+        public void SetEmail(string email)
         {
-            this.email = email;
+            this.Email = email;
         }
 
     }
