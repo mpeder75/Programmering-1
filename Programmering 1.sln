@@ -107,9 +107,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 8 - Microsoft Learn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 8 - Giraffe Academy - Exception Handling", "Session 8 - Giraffe Academy - Exception Handling\Session 8 - Giraffe Academy - Exception Handling.csproj", "{A3624D73-1030-4DC9-B892-EFC2E0BC6859}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 8 - IAmTimCorey - Handling Exceptions", "Session 8 - IAmTimCorey - Handling Exceptions\Session 8 - IAmTimCorey - Handling Exceptions.csproj", "{6F6D2544-A3E7-4F85-85D2-8C106F2E4A5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 8 - IAmTimCorey - Handling Exceptions", "Session 8 - IAmTimCorey - Handling Exceptions\Session 8 - IAmTimCorey - Handling Exceptions.csproj", "{6F6D2544-A3E7-4F85-85D2-8C106F2E4A5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionsLibrary", "ExceptionsLibrary\ExceptionsLibrary.csproj", "{E9C0DF92-FBE0-4360-97C8-F95CD1F3F5FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionsLibrary", "ExceptionsLibrary\ExceptionsLibrary.csproj", "{E9C0DF92-FBE0-4360-97C8-F95CD1F3F5FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Bogen om C# - Methods", "Session 5 - Bogen om C# - Methods\Session 5 - Bogen om C# - Methods.csproj", "{7862ABF0-0B13-492C-B564-B8D65A543F1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Bogen om C# - Methods Optional", "Session 5 - Bogen om C# - Methods Optional\Session 5 - Bogen om C# - Methods Optional.csproj", "{1503A9BA-4973-4251-ADE4-8ABF3A1E66E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Bogen om C# - Navngive argumenter", "Session 5 - Bogen om C# - Navngive argumenter\Session 5 - Bogen om C# - Navngive argumenter.csproj", "{7783CCEC-6D95-446F-BFB9-DFDFC057E371}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 9", "Session 9", "{14FD0D67-AF2E-44DA-BD7E-DCF305E821DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 9 - Generic List", "Session 9 - Generic List\Session 9 - Generic List.csproj", "{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -301,6 +311,22 @@ Global
 		{E9C0DF92-FBE0-4360-97C8-F95CD1F3F5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9C0DF92-FBE0-4360-97C8-F95CD1F3F5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9C0DF92-FBE0-4360-97C8-F95CD1F3F5FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7862ABF0-0B13-492C-B564-B8D65A543F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7862ABF0-0B13-492C-B564-B8D65A543F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7862ABF0-0B13-492C-B564-B8D65A543F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7862ABF0-0B13-492C-B564-B8D65A543F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1503A9BA-4973-4251-ADE4-8ABF3A1E66E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1503A9BA-4973-4251-ADE4-8ABF3A1E66E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1503A9BA-4973-4251-ADE4-8ABF3A1E66E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1503A9BA-4973-4251-ADE4-8ABF3A1E66E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7783CCEC-6D95-446F-BFB9-DFDFC057E371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7783CCEC-6D95-446F-BFB9-DFDFC057E371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7783CCEC-6D95-446F-BFB9-DFDFC057E371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7783CCEC-6D95-446F-BFB9-DFDFC057E371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -352,6 +378,10 @@ Global
 		{A3624D73-1030-4DC9-B892-EFC2E0BC6859} = {F5E96F32-3A38-4EC4-9119-83091ED0AD2B}
 		{6F6D2544-A3E7-4F85-85D2-8C106F2E4A5F} = {F5E96F32-3A38-4EC4-9119-83091ED0AD2B}
 		{E9C0DF92-FBE0-4360-97C8-F95CD1F3F5FC} = {F5E96F32-3A38-4EC4-9119-83091ED0AD2B}
+		{7862ABF0-0B13-492C-B564-B8D65A543F1A} = {AE976855-CDDF-44E5-9D6D-3959FAD58E42}
+		{1503A9BA-4973-4251-ADE4-8ABF3A1E66E3} = {AE976855-CDDF-44E5-9D6D-3959FAD58E42}
+		{7783CCEC-6D95-446F-BFB9-DFDFC057E371} = {AE976855-CDDF-44E5-9D6D-3959FAD58E42}
+		{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C} = {14FD0D67-AF2E-44DA-BD7E-DCF305E821DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}

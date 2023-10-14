@@ -14,7 +14,6 @@
 using Session_8___Exercise_1.Models;
 using Session_8___Exercise_1.DataAccess;
 
-
 string userFirstName = "";
 string userLastName = "";
 string userAddress = "";
@@ -22,6 +21,7 @@ string userTown = "";
 int userPostalCode = 0;
 string userEmail = "";
 int userPhoneNumber = 0;
+
 
 bool exitCondition = false;
 string userInput = "";
@@ -477,11 +477,3 @@ while (!exitCondition)
         exitCondition = true;
     }
 }
-
-
-
-
-
-
-
-
