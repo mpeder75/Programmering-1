@@ -7,6 +7,8 @@ ContactDbAccess myDatabase = new ContactDbAccess();
 
 // Få alle contacts fra ContactDbAccess.GetAllContacts og gem i Liste
 List<Contact> getAllContacts =  myDatabase.GetAllContacts();
+
+// Print alle contacts ud fra getAllContacts variablen
 foreach(var contact in getAllContacts)
 {
     Console.WriteLine("Contact ID: " + contact.Id);
@@ -19,9 +21,20 @@ foreach(var contact in getAllContacts)
     Console.WriteLine("Email: " + contact.Email + "\n");    
 }
 
-// Få EN contact fra ContactDbAccess.GetOneContacts og gem i Liste
+// Få EN contact fra ContactDbAccess.GetOneContacts og print
 Contact getOneContact = myDatabase.GetOneContact(1);
-Console.WriteLine("Print from getOneContact: " + getOneContact);
+Console.WriteLine("*********************************************************");
+Console.WriteLine("Printing getOneContact:");
+Console.WriteLine("Contact ID: " + getOneContact.Id);
+Console.WriteLine("First Name: " + getOneContact.FirstName);
+Console.WriteLine("Last Name: " + getOneContact.LastName);
+Console.WriteLine("Address: " + getOneContact.Address);
+Console.WriteLine("Postnummer: " + getOneContact.PostalCode);
+Console.WriteLine("City: " + getOneContact.City);
+Console.WriteLine("Phone: " + getOneContact.PhoneNumber);
+Console.WriteLine("Email: " + getOneContact.Email);
+Console.WriteLine("*********************************************************");
+
 
 
 // ----- Opret en Contact i List<Contact> contacts i ContactDbAcces
@@ -40,18 +53,30 @@ Contact michael = new Contact
 };
 
 
-// Derefter kaldesd CreateContact metoden gennem instancen myDatabase
-bool succesful = myDatabase.CreateContact(michael);
+// Derefter kaldes CreateContact metoden gennem instancen myDatabase  
+bool createSuccess = myDatabase.CreateContact(michael);
+Console.WriteLine($"\nIs object created? {createSuccess}\n");
 
-// Tjek om den er oprettet
-Console.WriteLine("michae objekt er oprettet? " + succesful);
 
-// ----- Update en Contact i List<Contact> contacts i ContactDbAcces
+// Update en Contact i List<Contact> contacts i ContactDbAcces
 getOneContact.FirstName = "Paul";
 bool updateSucces = myDatabase.UpdateContact(michael);
+Console.WriteLine("Is contact updated? " + updateSucces + "\n");
 
 
 
 // Delete contact
-bool deleteSuccesful = myDatabase.DeleteContact(10);
-Console.WriteLine("delete contact succesful? " + deleteSuccesful);
+bool deleteSuccess = myDatabase.DeleteContact(1);
+Console.WriteLine("Is contact deleted? " + deleteSuccess);
+
+
+Console.WriteLine();
+
+// --------------------- Tilføjesle med DateTime & birthday --------------------- //
+
+
+// Contact objekt 'abe' oprettes, og DateTime birthDay property fra Contact benyttes
+Contact abe = new Contact { Id = 11, FirstName = "Abe", LastName = "Simpson", birthDay = new DateTime(2000, 10, 19) };
+
+
+Console.WriteLine($"\n{abe.FirstName} is born {abe.birthDay.ToShortDateString()}. His age today is: {abe.Age}");
