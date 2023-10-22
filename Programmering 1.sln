@@ -119,7 +119,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Bogen om C# - N
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 9", "Session 9", "{14FD0D67-AF2E-44DA-BD7E-DCF305E821DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 9 - Generic List", "Session 9 - Generic List\Session 9 - Generic List.csproj", "{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 9 - Generic List", "Session 9 - Generic List\Session 9 - Generic List.csproj", "{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 9 - Exercise", "Session 9 - Exercise\Session 9 - Exercise.csproj", "{137C8F0C-F451-44A5-87F3-D48E413E3BF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +329,10 @@ Global
 		{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137C8F0C-F451-44A5-87F3-D48E413E3BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137C8F0C-F451-44A5-87F3-D48E413E3BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137C8F0C-F451-44A5-87F3-D48E413E3BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137C8F0C-F451-44A5-87F3-D48E413E3BF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -382,6 +388,7 @@ Global
 		{1503A9BA-4973-4251-ADE4-8ABF3A1E66E3} = {AE976855-CDDF-44E5-9D6D-3959FAD58E42}
 		{7783CCEC-6D95-446F-BFB9-DFDFC057E371} = {AE976855-CDDF-44E5-9D6D-3959FAD58E42}
 		{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C} = {14FD0D67-AF2E-44DA-BD7E-DCF305E821DF}
+		{137C8F0C-F451-44A5-87F3-D48E413E3BF9} = {14FD0D67-AF2E-44DA-BD7E-DCF305E821DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}
