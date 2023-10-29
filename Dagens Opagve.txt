@@ -1,0 +1,24 @@
+Versionering
+
+VersioneringKilder: 
+https://learn.microsoft.com/en-us/visualstudio/extensibility/internals/source-control?view=vs-2022
+
+https://www.youtube.com/watch?v=pm15wrsk5ds&list=PLlKkWDHtzhk2vxVzXiNAJsZ4q2_ypC5k2
+
+https://github.com/Find 
+
+evt. selv frem til flere. 
+
+Vær kritiskei forhold til de kilder i selv finder frem til.Find frem til: 
+
+Hvordan opretter jeg en Github konto
+Hvordan opretter jeg et repository
+Hvordan tilføjer jeg en solution til source controllokalt/remote
+Hvordan jeg løser jeg konflikter 
+Hvad er forskellen på local repo og remote repo
+
+Opret en præsentationder forklarer de forskellige problemstillingerog løsninger.
+
+Jeg udvælger 2-4grupper der har 5 min(+-30 sek)til at præsentere hvad de har fundet frem til. 
+
+Alt omkring Branching springer i over!

@@ -1,6 +1,5 @@
 ﻿
-
-namespace Session_9___Exercise_basic.Models
+namespace Session_11___Git_branch.Models
 {
     internal class Contact
     {
@@ -13,7 +12,6 @@ namespace Session_9___Exercise_basic.Models
         public int PhoneNumber { get; set; }
         public string Email { get; set; }
 
-        //todo Ekstra - inmplementering af birthday - Udfra birthday, skal alder beregnes
         public DateTime BirthDate { get; set; }
         private int age;
 
@@ -28,7 +26,6 @@ namespace Session_9___Exercise_basic.Models
 
 
 
-        //todo Ekstra - inmplementering af birthday - Udfra birthday, skal alder beregnes
         int CalcAge()
         {
             DateTime dd = DateTime.Now;

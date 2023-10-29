@@ -1,6 +1,6 @@
-﻿using Session_9___Exercise_basic.Models;
+﻿using Session_11___Git_branch.Models;
 
-namespace Session_9___Exercise_basic.DataAccess
+namespace Session_11___Git_branch.DataAccess
 {
     internal class ContactDbAccess
     {
