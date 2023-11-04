@@ -1,10 +1,7 @@
-﻿using Session_9___Exercise_basic.Models;
-using Session_9___Exercise_basic.DataAccess;
-using System.Globalization;
+﻿using Session_11___Git_branch.Models;
+using Session_11___Git_branch.DataAccess; 
 
 
-
-//todo ------------- Testning af Contact.cs -------------- //
 
 // Contact objekt "paul" der oprettes med værdier
 Contact paul = new Contact 
@@ -44,7 +41,6 @@ for (int i = 0; i < properties.Length ; i++)
 }
 
 
-//todo ------------- Testning af ContactDbAccess.cs -------------- //
 
 // ContactDbAccess instans oprettes, kaldes db
 ContactDbAccess db = new ContactDbAccess();
@@ -89,7 +85,6 @@ bool isDeleted = db.DeleteContact(3);
 Console.WriteLine(isDeleted);
 
 
-//todo ------------- Ekstra implementering af BirthDate -------------- //
 
 Contact abe = new Contact { 
     Id = 5, 

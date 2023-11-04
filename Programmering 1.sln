@@ -123,7 +123,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 9 - Generic List", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 9 - Exercise", "Session 9 - Exercise\Session 9 - Exercise.csproj", "{137C8F0C-F451-44A5-87F3-D48E413E3BF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 9 - Exercise basic", "Session 9 - Exercise basic\Session 9 - Exercise basic.csproj", "{81E07CF5-BD68-4E26-BAB1-C2A547AE9A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 9 - Exercise basic", "Session 9 - Exercise basic\Session 9 - Exercise basic.csproj", "{81E07CF5-BD68-4E26-BAB1-C2A547AE9A7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 10 - Git & Github", "Session 10 - Git & Github", "{4BBBBFFB-F4FD-4240-87F2-AB1DDCEBEC35}"
+	ProjectSection(SolutionItems) = preProject
+		Dagens Opagve.txt = Dagens Opagve.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 11 - Git branch", "Session 11 - Git branch", "{794E010A-4657-4CCD-93FC-49A7295959D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 11 - Git branch", "Session 11 - Git branch\Session 11 - Git branch.csproj", "{FE33EE99-607F-40AB-9ADD-BAB335924908}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -339,6 +348,10 @@ Global
 		{81E07CF5-BD68-4E26-BAB1-C2A547AE9A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81E07CF5-BD68-4E26-BAB1-C2A547AE9A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81E07CF5-BD68-4E26-BAB1-C2A547AE9A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE33EE99-607F-40AB-9ADD-BAB335924908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE33EE99-607F-40AB-9ADD-BAB335924908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE33EE99-607F-40AB-9ADD-BAB335924908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE33EE99-607F-40AB-9ADD-BAB335924908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -396,6 +409,7 @@ Global
 		{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C} = {14FD0D67-AF2E-44DA-BD7E-DCF305E821DF}
 		{137C8F0C-F451-44A5-87F3-D48E413E3BF9} = {14FD0D67-AF2E-44DA-BD7E-DCF305E821DF}
 		{81E07CF5-BD68-4E26-BAB1-C2A547AE9A7B} = {14FD0D67-AF2E-44DA-BD7E-DCF305E821DF}
+		{FE33EE99-607F-40AB-9ADD-BAB335924908} = {794E010A-4657-4CCD-93FC-49A7295959D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}

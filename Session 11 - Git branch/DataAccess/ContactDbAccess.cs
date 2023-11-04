@@ -1,6 +1,6 @@
-﻿using Session_9___Exercise_basic.Models;
+﻿using Session_11___Git_branch.Models;
 
-namespace Session_9___Exercise_basic.DataAccess
+namespace Session_11___Git_branch.DataAccess
 {
     internal class ContactDbAccess
     {
@@ -14,7 +14,6 @@ namespace Session_9___Exercise_basic.DataAccess
         }
 
 
-        // Crud Get()
 
         //todo CRUD - GetAllContacts
         public List<Contact> GetAllContacts()
@@ -68,6 +67,7 @@ namespace Session_9___Exercise_basic.DataAccess
         public bool UpdateContact(Contact contact)
         {
 
+            bool isValid = ValidateModel(contact);
 
             if(isValid) 
             {
