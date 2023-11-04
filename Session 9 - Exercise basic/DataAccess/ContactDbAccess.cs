@@ -15,10 +15,26 @@ namespace Session_9___Exercise_basic.DataAccess
         }
 
 
+        // Crud Get()
 
         public List<Contact> Get()
         {
             return contacts;
+        }
+
+        // Crud returner en contact
+        public Contact Get(int id)
+        {
+            // HVIS den finder en contact i List der matcher den parsede Id, returneres de 
+            foreach(var contact in contacts)
+            {
+                if(contact.Id == id)
+                {
+                    return contact;
+                } 
+            }
+            // Hvis den IKKE finder en contact der matcher id der er parset, returneres en ny Contact istedet
+            return new Contact();
         }
 
 

@@ -33,7 +33,10 @@ break;
 // ContactDbAccess instans oprettes, kaldes db
 ContactDbAccess db = new ContactDbAccess();
 
-// CRUD: db.Get() testes
-List<Contact> contacts = db.Get();
+// CRUD: db.Get() - get all contact testes
+List<Contact> getAllContacts = db.Get();
+
+// CRUD: db.Get() get en contact testes
+Contact getOneContact = db.Get(1);
 
 Console.WriteLine();
