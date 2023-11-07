@@ -14,12 +14,26 @@ namespace Session_13___Inheritance_inside_single_solution.Models
         public string Address { get; set; }
         public string City { get; set; }
         public int PhoneNumber { get; set; }
+        public decimal TaxRate { get; set; }
 
-        public override string ToString()
+
+
+        public override bool Equals(object obj)
         {
-            return $"{Id}{FirstName}{LastName}{Address}{City}{PhoneNumber}";
+            if (obj == null || GetType() != obj.GetType())
+            {
+                return false;
+            }
 
+            Contact other = (Contact)obj;
 
+            return Id == other.Id &&
+                   FirstName == other.FirstName &&
+                   LastName == other.LastName &&
+                   Address == other.Address &&
+                   City == other.City &&
+                   PhoneNumber == other.PhoneNumber &&
+                   TaxRate == other.TaxRate;
         }
 
 

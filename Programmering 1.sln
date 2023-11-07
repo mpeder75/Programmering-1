@@ -87,7 +87,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - Kode fra underv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 7 - Read & Write to files", "Session 7 - Read & Write to files\Session 7 - Read & Write to files.csproj", "{9DB2B5F4-B41B-4F1A-8901-55DD545C952A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 8 - POCO & Exceptions", "Session 8 - POCO & Exceptions", "{F5E96F32-3A38-4EC4-9119-83091ED0AD2B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 8 - Properties & Exceptions", "Session 8 - Properties & Exceptions", "{F5E96F32-3A38-4EC4-9119-83091ED0AD2B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 6 - Microsoft Learn - Classes", "Session 6 - Microsoft Learn - Classes\Session 6 - Microsoft Learn - Classes.csproj", "{F93C4C43-8F9F-4218-BEDE-24B5C58D23BD}"
 EndProject
@@ -117,7 +117,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Bogen om C# - M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 5 - Bogen om C# - Navngive argumenter", "Session 5 - Bogen om C# - Navngive argumenter\Session 5 - Bogen om C# - Navngive argumenter.csproj", "{7783CCEC-6D95-446F-BFB9-DFDFC057E371}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 9", "Session 9", "{14FD0D67-AF2E-44DA-BD7E-DCF305E821DF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 9 - Models & Generics", "Session 9 - Models & Generics", "{14FD0D67-AF2E-44DA-BD7E-DCF305E821DF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 9 - Generic List", "Session 9 - Generic List\Session 9 - Generic List.csproj", "{90E741CA-E8CF-4DBF-83AB-2FF6BC977F8C}"
 EndProject
@@ -134,9 +134,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 11 - Git branch", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 11 - Git branch", "Session 11 - Git branch\Session 11 - Git branch.csproj", "{FE33EE99-607F-40AB-9ADD-BAB335924908}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 13 - Inheritance", "Session 13 - Inheritance", "{E64A78E1-B011-47F9-BCD6-B50BA09B26A8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 13 - Inheritance & Equals", "Session 13 - Inheritance & Equals", "{E64A78E1-B011-47F9-BCD6-B50BA09B26A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 13 - Inheritance inside single solution", "Session 13 - Inheritance inside single solution\Session 13 - Inheritance inside single solution.csproj", "{265ED513-1F28-40D7-B7ED-2DD27AAF84C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 13 - Inheritance inside single solution", "Session 13 - Inheritance inside single solution\Session 13 - Inheritance inside single solution.csproj", "{265ED513-1F28-40D7-B7ED-2DD27AAF84C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 14 - Lambda & Delegates", "Session 14 - Lambda & Delegates", "{80F04009-5915-4B87-BA5B-B4D517C2487C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 13 - ReferenceEquals - Ultimate C# Masterclass 2024", "Session 13 - ReferenceEquals - Ultimate C# Masterclass 2024\Session 13 - ReferenceEquals - Ultimate C# Masterclass 2024.csproj", "{8FD6DA9C-588A-457E-A2FC-6EA622015C7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -360,6 +364,10 @@ Global
 		{265ED513-1F28-40D7-B7ED-2DD27AAF84C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{265ED513-1F28-40D7-B7ED-2DD27AAF84C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{265ED513-1F28-40D7-B7ED-2DD27AAF84C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD6DA9C-588A-457E-A2FC-6EA622015C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD6DA9C-588A-457E-A2FC-6EA622015C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD6DA9C-588A-457E-A2FC-6EA622015C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD6DA9C-588A-457E-A2FC-6EA622015C7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -419,6 +427,7 @@ Global
 		{81E07CF5-BD68-4E26-BAB1-C2A547AE9A7B} = {14FD0D67-AF2E-44DA-BD7E-DCF305E821DF}
 		{FE33EE99-607F-40AB-9ADD-BAB335924908} = {794E010A-4657-4CCD-93FC-49A7295959D0}
 		{265ED513-1F28-40D7-B7ED-2DD27AAF84C4} = {E64A78E1-B011-47F9-BCD6-B50BA09B26A8}
+		{8FD6DA9C-588A-457E-A2FC-6EA622015C7F} = {E64A78E1-B011-47F9-BCD6-B50BA09B26A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}
