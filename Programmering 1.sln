@@ -142,6 +142,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 14 - Lambda & Deleg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 13 - ReferenceEquals - Ultimate C# Masterclass 2024", "Session 13 - ReferenceEquals - Ultimate C# Masterclass 2024\Session 13 - ReferenceEquals - Ultimate C# Masterclass 2024.csproj", "{8FD6DA9C-588A-457E-A2FC-6EA622015C7F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 14 - Lambda", "Session 14 - Lambda\Session 14 - Lambda.csproj", "{27FAB293-4154-480F-BF1C-C7E8914BF681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 14 - Delegate", "Session 14 - Delegate\Session 14 - Delegate.csproj", "{63C365FF-67CA-4410-9DAA-D896D1B175BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 14 - Anonyme metoder", "Session 14 - Anonyme metoder\Session 14 - Anonyme metoder.csproj", "{AD43B862-3416-46F1-A303-C74448272E5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 14 - Exercises - Delegate", "Session 14 - Exercises - Delegate\Session 14 - Exercises - Delegate.csproj", "{E4DB14E8-13A9-47C3-8BC1-5751914B3341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 14 - Exercises - lambda", "Session 14 - Exercises - lambda\Session 14 - Exercises - lambda.csproj", "{52E12CD1-9118-4133-B227-4B726946726F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -368,6 +378,26 @@ Global
 		{8FD6DA9C-588A-457E-A2FC-6EA622015C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FD6DA9C-588A-457E-A2FC-6EA622015C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FD6DA9C-588A-457E-A2FC-6EA622015C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FAB293-4154-480F-BF1C-C7E8914BF681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FAB293-4154-480F-BF1C-C7E8914BF681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FAB293-4154-480F-BF1C-C7E8914BF681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FAB293-4154-480F-BF1C-C7E8914BF681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C365FF-67CA-4410-9DAA-D896D1B175BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C365FF-67CA-4410-9DAA-D896D1B175BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C365FF-67CA-4410-9DAA-D896D1B175BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C365FF-67CA-4410-9DAA-D896D1B175BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD43B862-3416-46F1-A303-C74448272E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD43B862-3416-46F1-A303-C74448272E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD43B862-3416-46F1-A303-C74448272E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD43B862-3416-46F1-A303-C74448272E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DB14E8-13A9-47C3-8BC1-5751914B3341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DB14E8-13A9-47C3-8BC1-5751914B3341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DB14E8-13A9-47C3-8BC1-5751914B3341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DB14E8-13A9-47C3-8BC1-5751914B3341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E12CD1-9118-4133-B227-4B726946726F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E12CD1-9118-4133-B227-4B726946726F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E12CD1-9118-4133-B227-4B726946726F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E12CD1-9118-4133-B227-4B726946726F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -428,6 +458,11 @@ Global
 		{FE33EE99-607F-40AB-9ADD-BAB335924908} = {794E010A-4657-4CCD-93FC-49A7295959D0}
 		{265ED513-1F28-40D7-B7ED-2DD27AAF84C4} = {E64A78E1-B011-47F9-BCD6-B50BA09B26A8}
 		{8FD6DA9C-588A-457E-A2FC-6EA622015C7F} = {E64A78E1-B011-47F9-BCD6-B50BA09B26A8}
+		{27FAB293-4154-480F-BF1C-C7E8914BF681} = {80F04009-5915-4B87-BA5B-B4D517C2487C}
+		{63C365FF-67CA-4410-9DAA-D896D1B175BD} = {80F04009-5915-4B87-BA5B-B4D517C2487C}
+		{AD43B862-3416-46F1-A303-C74448272E5C} = {80F04009-5915-4B87-BA5B-B4D517C2487C}
+		{E4DB14E8-13A9-47C3-8BC1-5751914B3341} = {80F04009-5915-4B87-BA5B-B4D517C2487C}
+		{52E12CD1-9118-4133-B227-4B726946726F} = {80F04009-5915-4B87-BA5B-B4D517C2487C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}
