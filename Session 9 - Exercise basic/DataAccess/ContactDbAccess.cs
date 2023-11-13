@@ -67,8 +67,6 @@ namespace Session_9___Exercise_basic.DataAccess
         //todo CRUD - Update a Contact
         public bool UpdateContact(Contact contact)
         {
-
-
             if(isValid) 
             {
                 foreach (var con in contacts)
