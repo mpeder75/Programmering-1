@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Session_15___AppStartup</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Session 15 - BusinessLogic\Session 15 - BusinessLogic.csproj" />
+    <ProjectReference Include="..\Session 15 - Models\Session 15 - Models.csproj" />
+  </ItemGroup>
+
+</Project>
