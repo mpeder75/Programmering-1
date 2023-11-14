@@ -20,5 +20,28 @@ namespace WinFormsApp
             GetOneItem.Text = $"ID: {vare.ID}\nItem Name: {vare.ItemName}\nItem Description: {vare.ItemDescription}\nAmount In Stock: {vare.AmountInStock}\nCost Price: {vare.CostPrice}\nProfit: {vare.Profit}";
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GetOneItem_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GetAllItems_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
