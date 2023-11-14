@@ -35,6 +35,8 @@
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             textBox5 = new TextBox();
+            textBox6 = new TextBox();
+            exitButton = new Button();
             ((System.ComponentModel.ISupportInitialize)GetAllItems).BeginInit();
             SuspendLayout();
             // 
@@ -43,12 +45,13 @@
             GetAllItems.BackgroundColor = SystemColors.ActiveCaption;
             GetAllItems.BorderStyle = BorderStyle.None;
             GetAllItems.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            GetAllItems.Location = new Point(635, 259);
+            GetAllItems.Location = new Point(581, 259);
             GetAllItems.Margin = new Padding(3, 3, 6, 3);
             GetAllItems.Name = "GetAllItems";
             GetAllItems.RowHeadersWidth = 51;
             GetAllItems.RowTemplate.Height = 29;
-            GetAllItems.Size = new Size(930, 328);
+            GetAllItems.ScrollBars = ScrollBars.Horizontal;
+            GetAllItems.Size = new Size(930, 355);
             GetAllItems.TabIndex = 2;
             GetAllItems.CellContentClick += GetAllItems_CellContentClick;
             // 
@@ -56,7 +59,7 @@
             // 
             GetOneItem.AutoSize = true;
             GetOneItem.Font = new Font("JetBrains Mono NL", 13.7999992F, FontStyle.Regular, GraphicsUnit.Point);
-            GetOneItem.Location = new Point(150, 259);
+            GetOneItem.Location = new Point(98, 259);
             GetOneItem.Margin = new Padding(6, 0, 3, 0);
             GetOneItem.Name = "GetOneItem";
             GetOneItem.Size = new Size(97, 30);
@@ -89,21 +92,22 @@
             // 
             textBox3.BackColor = SystemColors.ActiveCaption;
             textBox3.BorderStyle = BorderStyle.None;
-            textBox3.Font = new Font("Showcard Gothic", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox3.Font = new Font("Showcard Gothic", 28.2F, FontStyle.Regular, GraphicsUnit.Point);
             textBox3.ForeColor = SystemColors.ActiveCaptionText;
-            textBox3.Location = new Point(596, 21);
+            textBox3.Location = new Point(581, 22);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(404, 54);
+            textBox3.Size = new Size(440, 59);
             textBox3.TabIndex = 4;
             textBox3.Text = "Mogens frugtbix";
             textBox3.TextAlign = HorizontalAlignment.Center;
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // textBox4
             // 
             textBox4.BackColor = SystemColors.ActiveCaption;
             textBox4.BorderStyle = BorderStyle.None;
             textBox4.Font = new Font("JetBrains Mono NL", 13.7999992F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox4.Location = new Point(150, 222);
+            textBox4.Location = new Point(102, 225);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(223, 31);
             textBox4.TabIndex = 5;
@@ -115,12 +119,34 @@
             textBox5.BackColor = SystemColors.ActiveCaption;
             textBox5.BorderStyle = BorderStyle.None;
             textBox5.Font = new Font("JetBrains Mono NL", 13.7999992F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox5.Location = new Point(635, 222);
+            textBox5.Location = new Point(581, 225);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(233, 31);
             textBox5.TabIndex = 6;
             textBox5.Text = "Total inventory:";
             textBox5.TextChanged += textBox5_TextChanged;
+            // 
+            // textBox6
+            // 
+            textBox6.BackColor = SystemColors.ActiveCaption;
+            textBox6.BorderStyle = BorderStyle.None;
+            textBox6.Font = new Font("Showcard Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox6.Location = new Point(581, 106);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(452, 29);
+            textBox6.TabIndex = 7;
+            textBox6.Text = " Vi sælger ik meloner - de er træls !";
+            textBox6.TextChanged += textBox6_TextChanged;
+            // 
+            // exitButton
+            // 
+            exitButton.Location = new Point(98, 653);
+            exitButton.Name = "exitButton";
+            exitButton.Size = new Size(120, 48);
+            exitButton.TabIndex = 8;
+            exitButton.Text = "Exit store";
+            exitButton.UseVisualStyleBackColor = true;
+            exitButton.Click += exitButton_Click;
             // 
             // Form1
             // 
@@ -128,6 +154,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1662, 758);
+            Controls.Add(exitButton);
+            Controls.Add(textBox6);
             Controls.Add(textBox5);
             Controls.Add(textBox4);
             Controls.Add(textBox3);
@@ -148,5 +176,7 @@
         private TextBox textBox3;
         private TextBox textBox4;
         private TextBox textBox5;
+        private TextBox textBox6;
+        private Button exitButton;
     }
 }

@@ -20,6 +20,12 @@ namespace WinFormsApp
             GetOneItem.Text = $"ID: {vare.ID}\nItem Name: {vare.ItemName}\nItem Description: {vare.ItemDescription}\nAmount In Stock: {vare.AmountInStock}\nCost Price: {vare.CostPrice}\nProfit: {vare.Profit}";
         }
 
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+       
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -40,6 +46,16 @@ namespace WinFormsApp
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
