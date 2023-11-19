@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 /*
 Opret en metode i program.cs der modtager en List<int> og udskriver alle tal i denne.
@@ -25,12 +21,10 @@ namespace Session_14___Exercises___Delegate
 
             if (a % 2 == 0)
             {
-                equalNumbers.Add(a);
-
-            } else {
-
+                equalNumbers.Add(a);            
             }
 
+            return null;
         }
     }
 }

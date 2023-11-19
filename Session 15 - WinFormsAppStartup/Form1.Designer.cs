@@ -37,6 +37,7 @@
             textBox5 = new TextBox();
             textBox6 = new TextBox();
             exitButton = new Button();
+            textBox7 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)GetAllItems).BeginInit();
             SuspendLayout();
             // 
@@ -100,6 +101,7 @@
             textBox3.TabIndex = 4;
             textBox3.Text = "Mogens frugtbix";
             textBox3.TextAlign = HorizontalAlignment.Center;
+            textBox3.Click += exitButton_Click;
             textBox3.TextChanged += textBox3_TextChanged;
             // 
             // textBox4
@@ -148,12 +150,21 @@
             exitButton.UseVisualStyleBackColor = true;
             exitButton.Click += exitButton_Click;
             // 
+            // textBox7
+            // 
+            textBox7.AccessibleRole = AccessibleRole.Chart;
+            textBox7.Location = new Point(463, 554);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(125, 27);
+            textBox7.TabIndex = 9;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1662, 758);
+            Controls.Add(textBox7);
             Controls.Add(exitButton);
             Controls.Add(textBox6);
             Controls.Add(textBox5);
@@ -178,5 +189,6 @@
         private TextBox textBox5;
         private TextBox textBox6;
         private Button exitButton;
+        private TextBox textBox7;
     }
 }

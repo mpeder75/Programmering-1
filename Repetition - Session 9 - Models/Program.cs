@@ -67,4 +67,3 @@ db.PrintAllContacts(db.GetAllContacts());
 // print fra metode PrintOneContact i ContactDbAccess
 Console.Write("\nPrint from PrintOneContact");
 db.PrintOneContact(5);
-*/

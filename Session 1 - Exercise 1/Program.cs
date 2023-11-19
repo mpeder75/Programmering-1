@@ -10,4 +10,6 @@
 
 /*
  * 2. Dette er en multiline comment
- */ 
+ */
+
+Console.WriteLine("Bob");

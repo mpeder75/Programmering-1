@@ -67,7 +67,7 @@ namespace Session_9___Exercise_basic.DataAccess
         //todo CRUD - Update a Contact
         public bool UpdateContact(Contact contact)
         {
-            if(isValid) 
+            if(ValidateModel(contact)) 
             {
                 foreach (var con in contacts)
                 {
@@ -85,7 +85,6 @@ namespace Session_9___Exercise_basic.DataAccess
         //todo CRUD - Delete contact
         public bool DeleteContact(int id)
         {
-            bool isDeleted = false;
             Contact temp = new Contact();
             foreach (var contact in contacts)
             {

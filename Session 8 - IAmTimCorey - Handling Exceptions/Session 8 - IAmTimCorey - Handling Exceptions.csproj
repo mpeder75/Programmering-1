@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExceptionsLibrary\ExceptionsLibrary.csproj" />
+    <ProjectReference Include="..\ExceptionsLibrary\Session 8 - ExceptionsLibrary.csproj" />
   </ItemGroup>
 
 </Project>
