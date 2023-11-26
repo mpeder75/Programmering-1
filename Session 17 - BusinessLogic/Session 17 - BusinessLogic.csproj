@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Session_17___BusinessLogic</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Session 17 - DataAccess\Session 17 - DataAccess.csproj" />
+    <ProjectReference Include="..\Session 17 - Models\Session 17 - Models.csproj" />
+  </ItemGroup>
+
+</Project>
