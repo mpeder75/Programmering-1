@@ -192,13 +192,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 17 - WinForms", "Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 15 - WinFormsAppStartup", "Session 15 - WinFormsAppStartup\Session 15 - WinFormsAppStartup.csproj", "{37442CD5-3B43-44A5-B9F8-123586C25DDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 17 - AppStartUp", "Session 17 - AppStartUp\Session 17 - AppStartUp.csproj", "{CF3C23EF-EF39-4650-BE09-6E2EDB1787F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 17 - AppStartUp", "Session 17 - AppStartUp\Session 17 - AppStartUp.csproj", "{CF3C23EF-EF39-4650-BE09-6E2EDB1787F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 17 - BusinessLogic", "Session 17 - BusinessLogic\Session 17 - BusinessLogic.csproj", "{3FF381CD-A348-4509-BD05-0DC7BDF573FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 17 - BusinessLogic", "Session 17 - BusinessLogic\Session 17 - BusinessLogic.csproj", "{3FF381CD-A348-4509-BD05-0DC7BDF573FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 17 - DataAccess", "Session 17 - DataAccess\Session 17 - DataAccess.csproj", "{8025FE4F-D508-434F-B074-76DA07515B2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 17 - DataAccess", "Session 17 - DataAccess\Session 17 - DataAccess.csproj", "{8025FE4F-D508-434F-B074-76DA07515B2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 17 - Models", "Session 17 - Models\Session 17 - Models.csproj", "{1451B3BB-E297-4DE0-AFD8-8386FC3028DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Session 17 - Models", "Session 17 - Models\Session 17 - Models.csproj", "{1451B3BB-E297-4DE0-AFD8-8386FC3028DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 18 - WinForms 2", "Session 18 - WinForms 2", "{1FE93BA1-6D48-4517-AACE-71EAD0BB1D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session 18 - AppStartup", "Session 18 - AppStartup\Session 18 - AppStartup.csproj", "{9700C653-F3C2-4C0B-8D12-49D9F34C6BCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -514,6 +518,10 @@ Global
 		{1451B3BB-E297-4DE0-AFD8-8386FC3028DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1451B3BB-E297-4DE0-AFD8-8386FC3028DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1451B3BB-E297-4DE0-AFD8-8386FC3028DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9700C653-F3C2-4C0B-8D12-49D9F34C6BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9700C653-F3C2-4C0B-8D12-49D9F34C6BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9700C653-F3C2-4C0B-8D12-49D9F34C6BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9700C653-F3C2-4C0B-8D12-49D9F34C6BCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -599,6 +607,7 @@ Global
 		{3FF381CD-A348-4509-BD05-0DC7BDF573FD} = {44489BC1-B6E4-42F7-8A6F-829348E7F334}
 		{8025FE4F-D508-434F-B074-76DA07515B2C} = {44489BC1-B6E4-42F7-8A6F-829348E7F334}
 		{1451B3BB-E297-4DE0-AFD8-8386FC3028DF} = {44489BC1-B6E4-42F7-8A6F-829348E7F334}
+		{9700C653-F3C2-4C0B-8D12-49D9F34C6BCE} = {1FE93BA1-6D48-4517-AACE-71EAD0BB1D1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5652D520-C3D3-42D4-8AA6-08EC93EE2828}
