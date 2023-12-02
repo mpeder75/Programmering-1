@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sessino 16 - DataAccess\Session 16 - DataAccess.csproj" />
     <ProjectReference Include="..\Session 16 - Models\Session 16 - Models.csproj" />
   </ItemGroup>
 
