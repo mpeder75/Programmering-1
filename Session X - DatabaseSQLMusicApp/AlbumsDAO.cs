@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Microsoft.VisualBasic;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -87,8 +88,32 @@ namespace Session_X___DatabaseSQLMusicApp
             connection.Close();
             return allAlbumsList;
         }
+
+        // CRUD - Create
+        public int CreateAlbum(Album album)
+        {            
+            // opret forbindelse til database
+            MySqlConnection connection = new MySqlConnection(connectionString);
+            connection.Open();
+
+            // oprette og sende SQL query til database -> husk at sende connection string med
+            MySqlCommand command = new MySqlCommand
+            ("INSERT INTO albums (ALBUM_TITLE, ARTIST, YEAR, IMAGE_NAME, DESCRIPTION) VALUES (@albumtitle, @artist, @year, @imageURL, @description)", connection);
+
+            command.Parameters.AddWithValue("@albumtitle", album.AlbumName);
+            command.Parameters.AddWithValue("@artist", album.ArtistName);
+            command.Parameters.AddWithValue("@year", album.Year);
+            command.Parameters.AddWithValue("@imageURL", album.ImageURL);
+            command.Parameters.AddWithValue("@description", album.Description);
+
+            int newRows =  command.ExecuteNonQuery();
+            connection.Close();
+
+            return newRows;         
+        }
     }
-
-
 }
+
+
+
 

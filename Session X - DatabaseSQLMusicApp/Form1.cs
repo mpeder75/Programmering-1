@@ -41,7 +41,7 @@ namespace Session_X___DatabaseSQLMusicApp
         private void dgvLoadAlbums_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             // opsætter at når der trykkes på en celle i listen, sættes den til datagridview 
-            DataGridView dataGridView = (DataGridView) sender;
+            DataGridView dataGridView = (DataGridView)sender;
 
 
             int rowClicked = dataGridView.CurrentRow.Index;
@@ -51,6 +51,23 @@ namespace Session_X___DatabaseSQLMusicApp
             //MessageBox.Show("URL " + imageURL);
 
             pictureBox1.Load(imageURL);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // når 'Add Album' button trykkes på
+            Album album = new Album 
+            { 
+            AlbumName = txtAlbumName.Text,
+            ArtistName = txtArtist.Text,
+            Year = Int32.Parse(txtYear.Text),
+            ImageURL = txtImageURL.Text,
+            Description = txtDescription.Text
+            };
+
+            AlbumsDAO albumDAO = new AlbumsDAO();
+            int result = albumDAO.CreateAlbum(album);
+            MessageBox.Show(result + " Album created");
         }
     }
 }
