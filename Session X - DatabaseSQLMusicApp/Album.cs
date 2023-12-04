@@ -15,9 +15,8 @@ namespace Session_X___DatabaseSQLMusicApp
         public string ImageURL { get; set; }
         public string Description { get; set; }
 
-        // later make a list<Track> songs
-
-
+        // List<Track> songs - Denne er FORIGN KEY i C# delen
+        public List<Track> Tracks { get; set; }
 
 
     }

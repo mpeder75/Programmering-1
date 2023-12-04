@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             loadAlbumsButton = new Button();
             dgvLoadAlbums = new DataGridView();
             searchTextBox = new TextBox();
@@ -45,9 +46,12 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            label6 = new Label();
+            dgvLoadTracks = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dgvLoadAlbums).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvLoadTracks).BeginInit();
             SuspendLayout();
             // 
             // loadAlbumsButton
@@ -63,6 +67,14 @@
             // dgvLoadAlbums
             // 
             dgvLoadAlbums.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = SystemColors.Window;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
+            dgvLoadAlbums.DefaultCellStyle = dataGridViewCellStyle1;
             dgvLoadAlbums.Location = new Point(248, 101);
             dgvLoadAlbums.Name = "dgvLoadAlbums";
             dgvLoadAlbums.RowTemplate.Height = 25;
@@ -209,11 +221,31 @@
             label1.TabIndex = 0;
             label1.Text = "Album name";
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(252, 387);
+            label6.Name = "label6";
+            label6.Size = new Size(39, 15);
+            label6.TabIndex = 8;
+            label6.Text = "Tracks";
+            // 
+            // dgvLoadTracks
+            // 
+            dgvLoadTracks.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvLoadTracks.Location = new Point(252, 405);
+            dgvLoadTracks.Name = "dgvLoadTracks";
+            dgvLoadTracks.RowTemplate.Height = 25;
+            dgvLoadTracks.Size = new Size(499, 175);
+            dgvLoadTracks.TabIndex = 9;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1008, 729);
+            Controls.Add(dgvLoadTracks);
+            Controls.Add(label6);
             Controls.Add(groupBox1);
             Controls.Add(pictureBox1);
             Controls.Add(searchAlbumsButton);
@@ -226,6 +258,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvLoadTracks).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -249,5 +282,7 @@
         private TextBox txtArtist;
         private TextBox txtAlbumName;
         private Button button1;
+        private Label label6;
+        private DataGridView dgvLoadTracks;
     }
 }

@@ -4,7 +4,9 @@ namespace Session_X___DatabaseSQLMusicApp
     {
 
         BindingSource albumBindingSource = new BindingSource();
+        BindingSource tracksBindingSource = new BindingSource();
 
+        List<Album> albums = new List<Album>();
 
         public Form1()
         {
@@ -16,11 +18,13 @@ namespace Session_X___DatabaseSQLMusicApp
             // istancier AlbumsDAO class, så den kan bruges
             AlbumsDAO albumsDAO = new AlbumsDAO();
 
-            // samlaekoble database og gridview i Form1
-            albumBindingSource.DataSource = albumsDAO.getAllAlbums();
+            albums = albumsDAO.getAllAlbums();
 
+            // samlaekoble database og gridview i Form1
+            albumBindingSource.DataSource = albums;
             dgvLoadAlbums.DataSource = albumBindingSource;
 
+            // det første billede der skal loades i picturebox
             pictureBox1.Load("https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Beatles_-_Abbey_Road.jpg/220px-Beatles_-_Abbey_Road.jpg");
 
         }
@@ -33,24 +37,26 @@ namespace Session_X___DatabaseSQLMusicApp
             albumBindingSource.DataSource = albumsDAO.getOneAlbum(searchTextBox.Text);
 
             dgvLoadAlbums.DataSource = albumBindingSource;
-
-
         }
 
-        // Når der klikkes på en specifik celle i List 
+        //! Når der klikkes på en specifik celle i List, skal alle tracks hentes
         private void dgvLoadAlbums_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            AlbumsDAO albumsDAO= new AlbumsDAO();
+
             // opsætter at når der trykkes på en celle i listen, sættes den til datagridview 
             DataGridView dataGridView = (DataGridView)sender;
 
-
+            // når man trykker på en celle gemmes celle nummer (bruges nedenfor)
             int rowClicked = dataGridView.CurrentRow.Index;
-            //MessageBox.Show("You clicked row " + rowClicked);
 
             String imageURL = dataGridView.Rows[rowClicked].Cells[4].Value.ToString();
-            //MessageBox.Show("URL " + imageURL);
 
             pictureBox1.Load(imageURL);
+
+            //! databinding - når der trykkes på en celle, 
+            tracksBindingSource.DataSource = albums[rowClicked].Tracks;
+            dgvLoadTracks.DataSource = tracksBindingSource;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -63,11 +69,12 @@ namespace Session_X___DatabaseSQLMusicApp
             Year = Int32.Parse(txtYear.Text),
             ImageURL = txtImageURL.Text,
             Description = txtDescription.Text
-            };
-
+            };   
+            
             AlbumsDAO albumDAO = new AlbumsDAO();
             int result = albumDAO.CreateAlbum(album);
             MessageBox.Show(result + " Album created");
+            
         }
     }
 }
